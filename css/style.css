@@ -1,0 +1,1197 @@
+@font-face {
+  font-family: GABRWFFR;
+  src: url(../fonts/GABRWFFR.TTF);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* Por defecto es 100%, 62,5% cambia la base de 16px a 10px */
+}
+
+body {
+  background-color: #CBC1BF;
+  color: black;
+  font-family: GABRWFFR;
+}
+
+/* Logo */
+.header__logoCentrado {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.header__logoCentrado img {
+  width: 40%;
+}
+
+/* Menu */
+.header__seccionNavIndex {
+  height: 96vh;
+  background-image: url(../images/index_recortada.jpg);
+  background-size: 100%;
+}
+
+.menu li {
+  padding-right: 1rem;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: black;
+  padding: 0.2rem;
+  border: 2px solid black;
+  background-color: #91706B;
+  display: block;
+  text-align: center;
+}
+
+.ajusteNav {
+  padding-bottom: 140%;
+}
+
+.navbar {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.navbar-toggler {
+  background-color: black;
+}
+
+/* Fin Menu */
+/* Footer */
+footer {
+  font-size: 1.5rem;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#cbc1bf), color-stop(#b8afad), color-stop(#a59d9b), color-stop(#928b8a), to(#807a79));
+  background-image: linear-gradient(to right bottom, #cbc1bf, #b8afad, #a59d9b, #928b8a, #807a79);
+}
+
+.tituloRedes {
+  font-family: 'Teko', sans-serif;
+  font-weight: 200;
+  font-size: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.iconosFaceInsta__iconoFacebook,
+.iconosFaceInsta__iconoInstagram,
+.iconoTwitterYoutube__iconoTwitter,
+.iconoTwitterYoutube__iconoYoutube {
+  width: 1.5%;
+  margin: 3.5px;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.iconosFaceInsta__iconoFacebook:hover,
+.iconosFaceInsta__iconoInstagram:hover,
+.iconoTwitterYoutube__iconoTwitter:hover,
+.iconoTwitterYoutube__iconoYoutube:hover {
+  -webkit-filter: none;
+          filter: none;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.iconosFaceInsta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.iconoTwitterYoutube {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.volverArriba {
+  list-style: none;
+  font-family: 'Teko', sans-serif;
+  font-size: 2rem;
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.volverArriba a {
+  text-decoration: none;
+  color: black;
+}
+
+.volverArriba a:hover {
+  text-decoration: underline;
+}
+
+.footerCopyright {
+  font-family: 'Teko', sans-serif;
+  font-weight: 200;
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+/* Fin Footer */
+/* Primera Seccion Index */
+.seccionPrimeraIndex {
+  margin: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.seccionPrimeraIndex h1 {
+  text-align: center;
+  font-size: 6rem;
+}
+
+.seccionPrimeraIndex p {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+/* Fin Primera Seccion Index */
+/* Seccion Secundaria Index */
+.tituloSeccionSegunda {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3.5rem;
+}
+
+#seccionSegundaIndex__imagenEscalera {
+  width: 45rem;
+  height: 46rem;
+}
+
+.seccionSegundaIndex {
+  margin-left: 11rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.seccionSegundaIndex p {
+  padding-right: 20rem;
+  font-size: 3rem;
+  padding-top: 4.5rem;
+  padding-left: 2rem;
+}
+
+/* Fin Seccion Secundaria Index */
+.imangenPieIndex {
+  width: 100%;
+  height: 75rem;
+  padding-top: 1.5rem;
+}
+
+/* Personajes */
+.header__headerPersonajes {
+  width: 100%;
+  height: 60vh;
+  background-image: url(../images/personajes.jpg);
+  background-size: 100%;
+}
+
+.ajusteNavPersonajes {
+  padding-bottom: 85%;
+}
+
+.tituloPersonajes h1 {
+  font-size: 8rem;
+  text-align: center;
+  color: #a20505c6;
+}
+
+.selectorPersonajes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.selectorPersonajes a img {
+  width: 150px;
+  height: 150px;
+  margin: 4rem;
+  border-radius: 50%;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.selectorPersonajes a img:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.nombrePersonaje {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.nombrePersonaje h2 {
+  font-size: 5rem;
+}
+
+.seccionPersonajes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.seccionPersonajes img {
+  margin-left: 15rem;
+  height: 500px;
+  width: 350px;
+  margin-right: 5rem;
+}
+
+.seccionPersonajes p {
+  text-align: justify;
+  margin-right: 30rem;
+  font-size: 2.7rem;
+}
+
+.seccionImagenesPersonaje {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.seccionImagenesPersonaje img {
+  height: 250px;
+  width: 250px;
+  margin: 8rem;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.seccionImagenesPersonaje img:hover {
+  -webkit-filter: none;
+          filter: none;
+  -webkit-transform: scale(1.6, 1.6);
+          transform: scale(1.6, 1.6);
+}
+
+/* Fin Personajes */
+/* Temporadas */
+.header__headerTemporadas {
+  width: 100%;
+  height: 60vh;
+  background-image: url(../images/temporadas2.jpeg);
+  background-size: 100%;
+}
+
+.ajusteNavTemporadas {
+  padding-top: 1rem;
+}
+
+.tituloTemporadas h1 {
+  font-size: 8rem;
+  text-align: center;
+  color: #a20505c6;
+}
+
+.menuTemporadas li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+  padding: 0.6rem;
+  border: 3.5px solid black;
+  background-color: #91706B;
+  display: block;
+}
+
+.tituloTemporada {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 3rem;
+  font-size: 5rem;
+}
+
+.episodios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 1.6rem;
+}
+
+.episodios div {
+  margin: 2rem;
+  text-align: center;
+}
+
+/* Fin temporadas */
+/* Datos Curiosos */
+.header__headerDatosCuriosos {
+  width: 100%;
+  height: 60vh;
+  background-image: url(../images/datoscuriosos2.jpg);
+  background-size: 100%;
+}
+
+.tituloDatosCuriosos h1 {
+  font-size: 8rem;
+  text-align: center;
+  color: #a20505c6;
+}
+
+.datosCuriosos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 2rem;
+  text-align: justify;
+  padding-top: 5rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.datosCuriosos li {
+  text-align: justify;
+  padding-left: 25rem;
+  padding-right: 20rem;
+  padding-bottom: 5rem;
+  list-style-type: none;
+}
+
+.datosCuriosos div {
+  padding-bottom: 5rem;
+}
+
+/* Fin Datos Curiosos */
+/* Inicio Multimedia */
+.header__headerMultimedia {
+  width: 100%;
+  height: 60vh;
+  background-image: url(../images/multimedia.jpg);
+  background-size: 100%;
+}
+
+.tituloMultimedia h1 {
+  font-size: 8rem;
+  text-align: center;
+  color: #a20505c6;
+}
+
+.tituloWallaper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+}
+
+.wallpapersImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.wallpapersImg img {
+  height: 300px;
+  width: 450px;
+  margin: 3.5rem;
+}
+
+.tituloVideo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 5rem;
+  padding-bottom: 2.5rem;
+}
+
+.video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 3rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.video p {
+  padding-bottom: 3rem;
+}
+
+.tituloGifs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+}
+
+.gifs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.gifs img {
+  height: 200px;
+  width: 300px;
+  margin: 2rem;
+}
+
+#gifis__tercerGif {
+  height: 200px;
+  width: 400px;
+  margin: 2rem;
+}
+
+.header__header404 {
+  width: 100%;
+  height: 60vh;
+  background-image: url(../images/4043.jpg);
+  background-size: 100%;
+}
+
+.error404 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.error404 h1 {
+  font-size: 15rem;
+  color: #a20505c6;
+}
+
+.error404 h2 {
+  font-size: 7rem;
+}
+
+.error404 h3 {
+  font-size: 5rem;
+}
+
+/* MEDIA */
+/* CEL */
+@media only screen and (max-width: 599px) {
+  /* index */
+  .header__seccionNavIndex {
+    height: 30vh;
+    background-repeat: no-repeat;
+  }
+  .seccionPrimeraIndex h1 {
+    font-size: 3rem;
+  }
+  .seccionPrimeraIndex p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+  #seccionSegundaIndex__imagenEscalera {
+    width: 100%;
+    height: 100%;
+  }
+  .tituloSeccionSegunda {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 2rem;
+  }
+  .seccionSegundaIndex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: unset;
+  }
+  .seccionSegundaIndex p {
+    font-size: 1rem;
+    padding: unset;
+    padding-top: 1rem;
+  }
+  .imangenPieIndex {
+    width: 100%;
+    height: 100%;
+    padding-top: 1.5rem;
+  }
+  /* footer */
+  footer {
+    font-size: 1.5rem;
+  }
+  .tituloRedes {
+    font-size: 1rem;
+  }
+  .iconosFaceInsta__iconoFacebook,
+  .iconosFaceInsta__iconoInstagram,
+  .iconoTwitterYoutube__iconoTwitter,
+  .iconoTwitterYoutube__iconoYoutube {
+    width: 6.5%;
+    margin: 3.5px;
+  }
+  .footerCopyright {
+    font-size: 1.5rem;
+  }
+  .volverArriba {
+    font-size: 1.5rem;
+  }
+  /* personajes */
+  .header__headerPersonajes {
+    background-repeat: no-repeat;
+    height: 20vh;
+  }
+  .tituloPersonajes h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: #a20505c6;
+  }
+  .nombrePersonaje h2 {
+    font-size: 3rem;
+  }
+  .selectorPersonajes a img {
+    width: 70px;
+    height: 70px;
+    margin: 1rem;
+  }
+  .seccionPersonajes img {
+    margin-left: unset;
+    height: 300px;
+    margin-right: unset;
+  }
+  .seccionPersonajes p {
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .seccionImagenesPersonaje img {
+    height: 120px;
+    width: 120px;
+    margin: 2rem;
+  }
+  /* temporadas */
+  .header__headerTemporadas {
+    height: 20vh;
+    background-repeat: no-repeat;
+  }
+  .tituloTemporadas h1 {
+    font-size: 4rem;
+  }
+  .tituloTemporada {
+    padding-top: unset;
+    font-size: 3rem;
+  }
+  .episodios {
+    margin: unset;
+  }
+  /* datos curiosos */
+  .header__headerDatosCuriosos {
+    height: 20vh;
+    background-repeat: no-repeat;
+  }
+  .tituloDatosCuriosos h1 {
+    font-size: 4rem;
+  }
+  .datosCuriosos {
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+  .datosCuriosos li {
+    text-align: justify;
+    padding-left: unset;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    list-style-type: disc;
+  }
+  .datosCuriosos div {
+    padding-bottom: unset;
+  }
+  /* multimedia */
+  .header__headerMultimedia {
+    height: 20vh;
+    background-repeat: no-repeat;
+  }
+  .tituloMultimedia h1 {
+    font-size: 4rem;
+  }
+  .tituloWallaper {
+    font-size: 2rem;
+    padding-top: unset;
+    padding-bottom: unset;
+  }
+  .wallpapersImg {
+    margin: unset;
+  }
+  .wallpapersImg img {
+    height: 200px;
+    width: 350px;
+    margin: 1rem;
+  }
+  .tituloVideo {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+  .video {
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: unset;
+  }
+  .video p {
+    padding-bottom: 1rem;
+  }
+  .tituloGifs {
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: unset;
+  }
+  .gifs img {
+    height: 100px;
+    width: 200px;
+    margin: 1rem;
+  }
+  #gifis__tercerGif {
+    height: 100px;
+    width: 300px;
+    margin: 1rem;
+  }
+  .header__header404 {
+    height: 20vh;
+    background-repeat: no-repeat;
+  }
+  .error404 h1 {
+    font-size: 4rem;
+  }
+  .error404 h2 {
+    font-size: 3rem;
+  }
+  .error404 h3 {
+    font-size: 2rem;
+  }
+}
+
+/* Ipad */
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .header__seccionNavIndex {
+    height: 40vh;
+    background-repeat: no-repeat;
+  }
+  .ajusteNav {
+    padding-bottom: 45%;
+  }
+  .seccionPrimeraIndex h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+  .seccionPrimeraIndex p {
+    font-size: 2rem;
+    text-align: justify;
+  }
+  #seccionSegundaIndex__imagenEscalera {
+    width: 100%;
+    height: 100%;
+  }
+  .tituloSeccionSegunda {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 3rem;
+  }
+  .seccionSegundaIndex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: unset;
+  }
+  .seccionSegundaIndex p {
+    font-size: 2rem;
+    padding: unset;
+    padding-top: 1rem;
+  }
+  .imangenPieIndex {
+    width: 100%;
+    height: 100%;
+    padding-top: 1.5rem;
+  }
+  footer {
+    font-size: 1.5rem;
+  }
+  .tituloRedes {
+    font-size: 2rem;
+  }
+  .iconosFaceInsta__iconoFacebook,
+  .iconosFaceInsta__iconoInstagram,
+  .iconoTwitterYoutube__iconoTwitter,
+  .iconoTwitterYoutube__iconoYoutube {
+    width: 6.5%;
+    margin: 3.5px;
+  }
+  .footerCopyright {
+    font-size: 1.5rem;
+  }
+  .volverArriba {
+    font-size: 1.5rem;
+  }
+  /* personajes */
+  .header__headerPersonajes {
+    background-repeat: no-repeat;
+    height: 40vh;
+  }
+  .ajusteNavPersonajes {
+    padding-bottom: 48%;
+  }
+  .tituloPersonajes h1 {
+    font-size: 5rem;
+    text-align: center;
+    color: #a20505c6;
+  }
+  .nombrePersonaje h2 {
+    font-size: 4rem;
+  }
+  .selectorPersonajes a img {
+    width: 150px;
+    height: 150px;
+    margin: 1rem;
+  }
+  .titloPersonaje h1 {
+    font-size: 3rem;
+  }
+  .seccionPersonajes img {
+    margin-left: unset;
+    height: 500px;
+    margin-right: unset;
+  }
+  .seccionPersonajes p {
+    font-size: 2.1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .seccionImagenesPersonaje img {
+    height: 200px;
+    width: 200px;
+    margin: 2rem;
+  }
+  /* temporadas */
+  .header__headerTemporadas {
+    height: 40vh;
+    background-repeat: no-repeat;
+  }
+  .tituloTemporadas h1 {
+    font-size: 5rem;
+  }
+  .tituloTemporada {
+    padding-top: unset;
+    font-size: 3rem;
+  }
+  .episodios {
+    margin: unset;
+  }
+  /* datos curiosos */
+  .header__headerDatosCuriosos {
+    height: 20vh;
+    background-repeat: no-repeat;
+  }
+  .tituloDatosCuriosos h1 {
+    font-size: 5rem;
+  }
+  .datosCuriosos {
+    font-size: 2rem;
+    padding-top: 1rem;
+  }
+  .datosCuriosos li {
+    text-align: justify;
+    padding-left: unset;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+    list-style-type: disc;
+  }
+  .datosCuriosos div {
+    padding-bottom: unset;
+  }
+  /* multimedia */
+  .header__headerMultimedia {
+    height: 40vh;
+    background-repeat: no-repeat;
+  }
+  .tituloMultimedia h1 {
+    font-size: 5rem;
+  }
+  .tituloWallaper {
+    font-size: 2.5rem;
+    padding-top: unset;
+    padding-bottom: unset;
+  }
+  .wallpapersImg {
+    margin: unset;
+  }
+  .wallpapersImg img {
+    height: 200px;
+    width: 350px;
+    margin: 1rem;
+  }
+  .tituloVideo {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+  }
+  .video {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: unset;
+  }
+  .video p {
+    padding-bottom: 1rem;
+  }
+  .tituloGifs {
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: unset;
+  }
+  .gifs img {
+    height: 100px;
+    width: 200px;
+    margin: 1rem;
+  }
+  #gifis__tercerGif {
+    height: 100px;
+    width: 300px;
+    margin: 1rem;
+  }
+  .header__header404 {
+    height: 40vh;
+    background-repeat: no-repeat;
+  }
+  .error404 h1 {
+    font-size: 5rem;
+  }
+  .error404 h2 {
+    font-size: 4rem;
+  }
+  .error404 h3 {
+    font-size: 3rem;
+  }
+}
+
+/* Ipad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1700px) {
+  .header__seccionNavIndex {
+    height: 60vh;
+    background-repeat: no-repeat;
+  }
+  .ajusteNav {
+    padding-bottom: 76%;
+  }
+  .seccionPrimeraIndex h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+  .seccionPrimeraIndex p {
+    font-size: 3rem;
+    text-align: justify;
+  }
+  #seccionSegundaIndex__imagenEscalera {
+    width: 100%;
+    height: 100%;
+  }
+  .tituloSeccionSegunda {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 3.5rem;
+  }
+  .seccionSegundaIndex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: unset;
+  }
+  .seccionSegundaIndex p {
+    font-size: 3rem;
+    padding: unset;
+    padding-top: 1rem;
+  }
+  .imangenPieIndex {
+    width: 100%;
+    height: 100%;
+    padding-top: 1.5rem;
+  }
+  footer {
+    font-size: 1.5rem;
+  }
+  .tituloRedes {
+    font-size: 2.5rem;
+  }
+  .iconosFaceInsta__iconoFacebook,
+  .iconosFaceInsta__iconoInstagram,
+  .iconoTwitterYoutube__iconoTwitter,
+  .iconoTwitterYoutube__iconoYoutube {
+    width: 2.5%;
+    margin: 2.5px;
+  }
+  .footerCopyright {
+    font-size: 2rem;
+  }
+  .volverArriba {
+    font-size: 2rem;
+  }
+  /* personajes */
+  .header__headerPersonajes {
+    background-repeat: no-repeat;
+    height: 40vh;
+  }
+  .ajusteNavPersonajes {
+    padding-bottom: 47%;
+  }
+  .tituloPersonajes h1 {
+    font-size: 6rem;
+    text-align: center;
+    color: #a20505c6;
+  }
+  .nombrePersonaje h2 {
+    font-size: 5rem;
+  }
+  .selectorPersonajes a img {
+    width: 150px;
+    height: 150px;
+    margin: 1rem;
+  }
+  .titloPersonaje h1 {
+    font-size: 2.5rem;
+  }
+  .seccionPersonajes img {
+    margin-left: unset;
+    height: 400px;
+    margin-right: unset;
+  }
+  .seccionPersonajes p {
+    font-size: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .seccionImagenesPersonaje img {
+    height: 200px;
+    width: 200px;
+    margin: 2rem;
+  }
+  /* temporadas */
+  .header__headerTemporadas {
+    height: 40vh;
+    background-repeat: no-repeat;
+  }
+  .tituloTemporada {
+    padding-top: unset;
+    font-size: 3rem;
+  }
+  .tituloTemporadas h1 {
+    font-size: 6rem;
+  }
+  .episodios {
+    margin: unset;
+  }
+  /* datos curiosos */
+  .header__headerDatosCuriosos {
+    height: 40vh;
+    background-repeat: no-repeat;
+  }
+  .tituloDatosCuriosos h1 {
+    font-size: 6rem;
+  }
+  .datosCuriosos {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+  }
+  .datosCuriosos li {
+    text-align: justify;
+    padding-left: unset;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    list-style-type: disc;
+  }
+  .datosCuriosos div {
+    padding-bottom: unset;
+  }
+  /* multimedia */
+  .header__headerMultimedia {
+    height: 40vh;
+    background-repeat: no-repeat;
+  }
+  .tituloMultimedia h1 {
+    font-size: 6rem;
+  }
+  .tituloWallaper {
+    font-size: 2.5rem;
+    padding-top: unset;
+    padding-bottom: unset;
+  }
+  .wallpapersImg {
+    margin: unset;
+  }
+  .wallpapersImg img {
+    height: 200px;
+    width: 350px;
+    margin: 1rem;
+  }
+  .tituloVideo {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+  }
+  .video {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: unset;
+  }
+  .video p {
+    padding-bottom: 1.5rem;
+  }
+  .tituloGifs {
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: unset;
+  }
+  .gifs img {
+    height: 200px;
+    width: 300px;
+    margin: 1rem;
+  }
+  #gifis__tercerGif {
+    height: 150px;
+    width: 350px;
+    margin: 2rem;
+  }
+  .header__header404 {
+    height: 40vh;
+    background-repeat: no-repeat;
+  }
+  .error404 h1 {
+    font-size: 6rem;
+  }
+  .error404 h2 {
+    font-size: 5rem;
+  }
+  .error404 h3 {
+    font-size: 4rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

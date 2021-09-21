@@ -1,0 +1,104 @@
+/* Personajes */
+
+.header__headerPersonajes {
+
+    width: 100%;
+    height: 60vh;
+    background-image: url(../images/personajes.jpg);
+    background-size: 100%;
+}
+
+.ajusteNavPersonajes {
+
+    padding-bottom: 85%;
+
+}
+
+.tituloPersonajes {
+
+    h1 {
+
+    font-size: 8rem;
+    text-align: center;
+    color: #a20505c6;
+
+    }
+}
+
+.selectorPersonajes {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    a img {
+
+        width: 150px;
+        height: 150px;
+        margin: 4rem;
+        border-radius: 50%;
+        filter: grayscale(1);
+        transition: 1s;
+    }
+
+    a img:hover {
+
+        filter: none;
+    }
+}
+
+.nombrePersonaje {
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+
+    h2 {
+
+        font-size: 5rem;
+    }
+}
+
+.seccionPersonajes {
+
+    display: flex;
+    justify-content: center;
+
+    img {
+        margin-left: 15rem;
+        height: 500px;
+        width: 350px;
+        margin-right: 5rem;
+    }
+
+    p {
+
+        text-align: justify;
+        margin-right: 30rem;
+        font-size: 2.7rem;
+    }
+}
+
+.seccionImagenesPersonaje {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    img {
+
+        height: 250px;
+        width: 250px;
+        margin: 8rem;
+        filter: grayscale(1);
+        transition: 2s;
+
+    }
+
+    img:hover {
+        filter: none;
+        transform: scale(1.6, 1.6);
+    }
+}
+
+/* Fin Personajes */

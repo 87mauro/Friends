@@ -1,0 +1,169 @@
+@font-face {
+    font-family: GABRWFFR;
+    src: url(../fonts/GABRWFFR.TTF)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    /* Por defecto es 100%, 62,5% cambia la base de 16px a 10px */
+
+}
+
+body {
+
+    background-color: #CBC1BF;
+    color: black;
+    font-family: GABRWFFR;
+}
+
+/* Logo */
+
+.header__logoCentrado {
+
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+        width: 40%;
+    }
+}
+
+/* Menu */
+
+.header__seccionNavIndex {
+
+    height: 96vh;
+    background-image: url(../images/index_recortada.jpg);
+    background-size: 100%;
+}
+
+.menu li {
+
+    padding-right: 1rem;
+
+    a {
+
+        text-decoration: none;
+        font-size: 1.7rem;
+        color: black;
+        padding: 0.2rem;
+        border: 2px solid black;
+        background-color: #91706B;
+        display: block;
+        text-align: center;
+    }
+}
+
+.ajusteNav {
+
+    padding-bottom: 140%;
+}
+
+.navbar {
+
+    align-items: flex-start;
+}
+
+.navbar-toggler {
+
+    background-color: black;
+}
+
+/* Fin Menu */
+
+/* Footer */
+
+footer {
+
+    font-size: 1.5rem;
+    background-image: linear-gradient(to right bottom, #cbc1bf, #b8afad, #a59d9b, #928b8a, #807a79);
+
+}
+
+
+.tituloRedes {
+    font-family: 'Teko', sans-serif;
+    font-weight: 200;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.iconosFaceInsta__iconoFacebook,
+.iconosFaceInsta__iconoInstagram,
+.iconoTwitterYoutube__iconoTwitter,
+.iconoTwitterYoutube__iconoYoutube {
+
+    width: 1.5%;
+    margin: 3.5px;
+    filter: grayscale(1);
+    transition: 1s;
+
+}
+
+.iconosFaceInsta__iconoFacebook:hover,
+.iconosFaceInsta__iconoInstagram:hover,
+.iconoTwitterYoutube__iconoTwitter:hover,
+.iconoTwitterYoutube__iconoYoutube:hover {
+
+    filter: none;
+    transform: scale(1.5);
+
+}
+
+.iconosFaceInsta {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.iconoTwitterYoutube {
+
+    display: flex;
+    justify-content: center;
+}
+
+.volverArriba {
+
+    list-style: none;
+    font-family: 'Teko', sans-serif;
+    font-size: 2rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+
+    a {
+
+        text-decoration: none;
+        color: black;
+
+    }
+
+    a:hover {
+
+        text-decoration: underline;
+
+    }
+
+}
+
+.footerCopyright {
+
+    font-family: 'Teko', sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+/* Fin Footer */
