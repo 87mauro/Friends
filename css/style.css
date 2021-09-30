@@ -1059,7 +1059,7 @@ footer {
   /* personajes */
   .header__headerPersonajes {
     background-repeat: no-repeat;
-    height: 40vh;
+    height: 60vh;
   }
   .ajusteNavPersonajes {
     padding-bottom: 47%;
@@ -1097,7 +1097,7 @@ footer {
   }
   /* temporadas */
   .header__headerTemporadas {
-    height: 40vh;
+    height: 60vh;
     background-repeat: no-repeat;
   }
   .tituloTemporada {
@@ -1112,7 +1112,7 @@ footer {
   }
   /* datos curiosos */
   .header__headerDatosCuriosos {
-    height: 40vh;
+    height: 60vh;
     background-repeat: no-repeat;
   }
   .tituloDatosCuriosos h1 {
@@ -1134,7 +1134,7 @@ footer {
   }
   /* multimedia */
   .header__headerMultimedia {
-    height: 40vh;
+    height: 60vh;
     background-repeat: no-repeat;
   }
   .tituloMultimedia h1 {
@@ -1181,7 +1181,7 @@ footer {
     margin: 2rem;
   }
   .header__header404 {
-    height: 40vh;
+    height: 60vh;
     background-repeat: no-repeat;
   }
   .error404 h1 {
