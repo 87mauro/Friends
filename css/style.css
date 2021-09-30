@@ -993,7 +993,7 @@ footer {
 /* Ipad Pro */
 @media only screen and (min-width: 1024px) and (max-width: 1700px) {
   .header__seccionNavIndex {
-    height: 60vh;
+    height: 90vh;
     background-repeat: no-repeat;
   }
   .ajusteNav {
