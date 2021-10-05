@@ -59,6 +59,10 @@ body {
   text-align: center;
 }
 
+.menu li a:hover {
+  color: #a20505c6;
+}
+
 .ajusteNav {
   padding-bottom: 140%;
 }
@@ -590,6 +594,11 @@ footer {
 /* MEDIA */
 /* CEL */
 @media only screen and (max-width: 599px) {
+  .justify-content-center {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
+  }
   /* index */
   .header__seccionNavIndex {
     height: 30vh;
@@ -787,6 +796,11 @@ footer {
 
 /* Ipad */
 @media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .justify-content-center {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
+  }
   .header__seccionNavIndex {
     height: 40vh;
     background-repeat: no-repeat;

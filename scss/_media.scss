@@ -3,6 +3,12 @@
 /* CEL */
 @media only screen and (max-width:599px) {
 
+    // nav no centrado
+    .justify-content-center {
+
+        justify-content: start !important;
+    }
+
     /* index */
     .header__seccionNavIndex {
 
@@ -353,6 +359,12 @@
 
 /* Ipad */
 @media only screen and (min-width:600px) and (max-width:1023px) {
+
+    // nav no centrado
+    .justify-content-center {
+
+        justify-content: start !important;
+    }
 
     .header__seccionNavIndex {
 
