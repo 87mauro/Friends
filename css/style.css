@@ -101,7 +101,7 @@ footer {
 .iconosFaceInsta__iconoInstagram,
 .iconoTwitterYoutube__iconoTwitter,
 .iconoTwitterYoutube__iconoYoutube {
-  width: 1.5%;
+  width: 2.5%;
   margin: 3.5px;
   -webkit-filter: grayscale(1);
           filter: grayscale(1);
@@ -211,8 +211,7 @@ footer {
 }
 
 #seccionSegundaIndex__imagenEscalera {
-  width: 45rem;
-  height: 46rem;
+  width: 65rem;
 }
 
 .seccionSegundaIndex {
@@ -227,7 +226,6 @@ footer {
 .seccionSegundaIndex p {
   padding-right: 20rem;
   font-size: 3rem;
-  padding-top: 4.5rem;
   padding-left: 2rem;
 }
 
@@ -235,7 +233,7 @@ footer {
 .imangenPieIndex {
   width: 100%;
   height: 75rem;
-  padding-top: 1.5rem;
+  padding-top: 2rem;
 }
 
 /* Personajes */
@@ -1061,7 +1059,7 @@ footer {
   .iconosFaceInsta__iconoInstagram,
   .iconoTwitterYoutube__iconoTwitter,
   .iconoTwitterYoutube__iconoYoutube {
-    width: 2.5%;
+    width: 3.5%;
     margin: 2.5px;
   }
   .footerCopyright {
