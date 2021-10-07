@@ -212,6 +212,7 @@ footer {
 
 #seccionSegundaIndex__imagenEscalera {
   width: 65rem;
+  padding-bottom: 2rem;
 }
 
 .seccionSegundaIndex {
@@ -226,7 +227,7 @@ footer {
 .seccionSegundaIndex p {
   padding-right: 20rem;
   font-size: 3rem;
-  padding-left: 2rem;
+  padding-left: 4rem;
 }
 
 /* Fin Seccion Secundaria Index */
